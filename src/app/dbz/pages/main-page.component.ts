@@ -23,4 +23,8 @@ export class MainPageComponent {
     }
   ];
 
+  onNewCharacter(character: CharacterInterface): void {
+    console.log(character);
+  }
+
 }
