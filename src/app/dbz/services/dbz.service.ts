@@ -25,7 +25,7 @@ export class DbzService {
     }
   ];
 
-  onNewCharacter(character: CharacterInterface): void {
+  addCharacter(character: CharacterInterface): void {
     const newCharacter: CharacterInterface = {id:uuid(), ...character};
     this.characters.push(newCharacter);
   }
